@@ -10,7 +10,7 @@ public class DemoApp extends Application {
     public void onCreate() {
         super.onCreate();
 
-        String appKey = ""; // YourAppKey
+        String appKey = "y745wfm8yg89v"; // YourAppKey
         InitOption initOption = new InitOption.Builder().enablePush(true).build();
         RongCoreClient.init(this, appKey, initOption);
     }
