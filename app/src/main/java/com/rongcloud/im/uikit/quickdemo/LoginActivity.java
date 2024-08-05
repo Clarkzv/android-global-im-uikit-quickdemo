@@ -20,7 +20,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         findViewById(R.id.btnLogin).setOnClickListener(view -> {
-            String token = "后台获取的 token";
+            String token = "tyKANAUW4ykRW/tu3/u/xKBeLmUcxmLHCBVfFEFkUrE=@475c.sg.rongnav.com;475c.sg.rongcfg.com";
             connectIM(token);
         });
         setIMStatusListener();
